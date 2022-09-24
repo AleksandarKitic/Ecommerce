@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/index.js" defer></script>
+    <link href="assets/style/style.css" rel="stylesheet" type="text/css" />
+    <title>WEBSHOP Platform</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h3>SHOP </h3>
+            <div id="main">
+                <ul>
+                    <li><a href="#">Add Item</a>
+                        <ul>
+                            <li>
+                                <div id="input-form">
+                                    <form>
+                                        <input id="Name-creator" type="text" placeholder="Creator name" required="required"><br>
+                                        <input id="Name-input" type="text" placeholder="Item Name" required="required"><br>
+                                        <input id="Img-input" type="text" placeholder="Img Source" required="required"><br>
+                                        <input id="Desc_input" type="text" placeholder="Description" required="required"><br>
+                                        <input id="Price_input" type="number" placeholder="Price" required="required"> <br>
+                                        <button type="button" id="btn_input">Insert Item</button>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Remove Item</a>
+                        <ul>
+                            <li>
+                                <div id="input-form">
+                                    <input id="removeInput" type="text" placeholder="Search ID for remove" required="required"><br>
+                                    <div id="removed-item-list"></div>
+                                    <div id="removedItem"></div>
+                                    <button type="button" id="btn_remove">Remove Item</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="#">All Items</a></li>
+                    <li><a href="#">For Women</a></li>
+                    <li><a href="#">For Men</a></li>
+                    <li><a href="#">For Child</a></li>
+                    <li><a href="#">Outlet</a></li> -->
+                </ul>
+            </div>
+        </div>
+        <div id="nav">
+            <div id="navigation_header">
+                <ul>
+                    <li><a href='#'>Register</a>
+                        <ul>
+                            <li>
+                                <div id="register-form">
+                                    <input id="userNameReg" type="text" placeholder="Full Name"><br>
+                                    <input id="emailUserReg" type="email" placeholder="Email"><br>
+                                    <input id="passwordUserReg" type="password" placeholder="Password"><br>
+                                    <input id="passwordUserRegRe" type="password" placeholder="Re-Password"><br>
+                                    <button type="button" id="btn-register">REGISTER</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href='includes/home/index.html'>Home</a></li>
+                    <li><a href='#'>Shop</a></li>
+                    <li><a href='#'>Cart</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="sidebar">
+            <div id="render_items"></div>
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    margin:0 auto;
+    padding: 0;
+}
+#container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+#header{
+    height: 710px;
+    width: 400px;
+    padding: 20px 0 0 30px;
+    
+}
+#header h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+#nav ul{
+    list-style: none;
+    padding: 0;
+    margin:20px 0 0 50%;
+    
+}
+#navigation_header ul{
+    background-color: transparent;
+    position: fixed;
+    top: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+#navigation_header ul li:hover{}
+#navigation_header ul li ul{}
+#navigation_header ul li ul li{}
+
+#nav ul li{
+    margin: 10px;
+    height: 25px;
+    text-transform: uppercase;
+}
+#nav ul li a{
+    text-decoration: none;
+    color:#000;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0;
+}
+#nav ul li a:hover{
+    border-bottom:1px solid #808080;
+}
+#main{
+    margin-top: 100px;
+}
+#main #input-form{
+    padding: 20px;
+    background-color: #fff;
+
+}
+#main #input-form input{
+    border: none;
+    border-bottom: 1px solid #808080;
+    padding: 2px;
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+}
+#main #input-form button{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-left: 7px;
+    text-transform: uppercase;
+}
+#main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main ul li{
+    margin-top: 20px;
+}
+#main ul li a{
+    border-bottom: 1px solid #808080;
+    
+    padding: 0 140px 0 0;
+    width: 90%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #808080;
+}
+#main ul li a:hover{
+    color:#000;
+}
+#main ul li:hover ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#main ul li ul{
+    margin: 0;
+    padding: 0;
+}
+#main ul li ul li{
+    display: none;
+    position: absolute;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #808080;
+    border-radius: 20px;
+}
+#sidebar{
+    width: 100%;
+    padding: 100px;
+    border-left: 1px solid #808080;
+    
+}
+#render_items{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+}
+
+.product-cart-item img{
+    width: 300px;
+    height: 320px;
+    border-bottom:1px solid #808080 ;
+    
+}
+.product-cart-item img:hover{
+    
+}
+
+.product_content{
+    margin: 3px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.product_content button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #808080;
+    padding: 3px;
+    margin: 5px;
+    margin-left: 20px;
+    background-color:#808080;
+    color:#fff;
+}
+.product-item{
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    border: 1px solid #808080;
+}
+
+.unvisible{
+    display: none;
+}
+#footer{}
